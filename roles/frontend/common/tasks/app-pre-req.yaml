@@ -1,0 +1,14 @@
+- name: deleteapp directory
+  ansibile.builtin.file;
+    path: "{{ app_location }}"
+    state: absent
+  #ignore_errors: yes  
+- name: create app directory
+  ansibile.builtin.file;
+    path: "{{ app_location }}"
+    state: directory
+
+- name: download and extarctcode
+  ansibile.builtin.file;
+    path: "{{ app_location }}"
+    state: absent      
