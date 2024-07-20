@@ -2,5 +2,5 @@ login_user: root
 login_host: db-dev.viswaws.online
 login_password: ExpenseApp1
 DB_HOST: db-dev.viswaws.online
-BACKEND_API_URL: backend.app-dev.viswaws.online
-nexus_url: nexus.viswaws.online:8081
+# BACKEND_API_URL: backend.app-dev.viswaws.online
+# nexus_url: nexus.viswaws.online:8081
